@@ -1,0 +1,129 @@
+
+body {
+  text-align: center;
+  background: #F5F5F5;
+  }
+
+div {
+  margin: 0 auto;
+  width: 320px;
+  height: 320px;
+  color: white;
+  position: relative;
+  border: 0;
+  border-radius:5px;
+  text-align: left;
+  }
+p {
+  font-family: Helvetica Neue;
+  letter-spacing: 1.3px;
+  padding: 10px 20px 10px 20px;
+  line-height: 40px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 0;
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3));
+  margin: 0;
+  height: 30px;
+  transition: height 0.4s;
+  -webkit-transition: height 0.4s;
+  -moz-trantistion: height 0.4s;
+  }
+
+h1 {
+  padding: 80px 0 0 0;
+  font-family: Helvetica Neue;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 38px;
+  color: #252a2e;
+  }
+h2 {
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 21px;
+  font-weight: 300; 
+  line-height: 32px;
+  color: #797874;
+  }
+input[type="email"] {
+  
+  height: 50px;
+  width:250px;
+  border: 1px solid rgba(144, 143, 140, 0.3);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 10px;
+  font-size:17px;
+  background: #FFFFFF;
+  margin-right: -5px;
+}
+::placeholder {
+  font-family: Helvetica Neue;
+  color:grey;
+  opacity: 0.3;
+  }
+button {
+  height: 50px;
+  width: 80px;
+  border: 1;
+  border-color: rgb(0, 147, 150);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+  background: #00A2A5;
+  color: white;
+  font-family: Helvetica Neue;
+  font-size: 17px;
+  }
+small {
+  font-size: 15px;
+  font-weight: 100; 
+  line-height: 1.5;
+  opacity: 0;
+  }
+a {
+color: white;
+font-weight: 400;
+}
+.header {
+  border:0px;
+  border-radius: 5px;
+  margin: 20px auto;
+  height: 300px;
+  width: 1000px;
+  background: white;
+  }
+.price {
+  float: right;}
+
+.bodybox {
+  width: 1000;
+  margin: 0 auto;
+  }
+.first {
+  background: url("https://static-2.gumroad.com/res/gumroad/5261996276598/asset_previews/250346ab8247816a66551cdafd05f8cf/retina/14712755_411523895638752_8385774214212819811_o.jpg");
+  background-size: cover;
+  float: left;
+}
+.second {
+  background: url("https://static-2.gumroad.com/res/gumroad/5261996276598/asset_previews/1e1432e8f3b6bc7a7bbb1050ca4fb2e8/retina/sword_20patreon_20covere.jpg");
+  background-size: cover;
+  float: left;
+  margin-left:20px
+}
+.third {
+  background: url("https://static-2.gumroad.com/res/gumroad/5261996276598/asset_previews/6176fe0e81d1c9c8d545b49abec6d901/retina/gumroad_1.jpg");
+  background-size: cover;
+  float: right;
+}
+.show-description p {
+  height: 300px;
+  
+}
+
+.show-description small{
+  opacity: 1;
+  letter-spacing: 1.2px;
+}
+

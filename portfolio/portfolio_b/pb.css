@@ -1,0 +1,69 @@
+body {
+  text-align: center;
+  background: rgb(173, 206, 186);
+  }
+  header {
+    margin: 20;
+     }
+     
+  img{
+    width: 250px;
+       }
+
+  ul{
+    padding:10px;
+    font-weight: bold;
+    background: rgb(198, 217, 203);
+    }
+  
+  li {
+    display: inline;
+    padding: 0 20 0 20
+    }
+  a {
+    color: rgb(100, 98, 96);
+    font-family: Courier New;
+    }
+  
+  article {
+    color: white;
+    max-width: 500;
+    margin: 50 auto;} 
+  
+  h2 {
+    font-size: 25;
+    font-family: Courier New;}
+    
+  p{
+    font-size: 15;
+   }
+    
+  button {
+    border: 0px ;
+    background: rgb(198, 217, 203);
+    border-radius: 20px;
+    color: rgb(100, 98, 96);
+    width: 70px;
+    height: 30px;
+    }
+    
+  input {
+    border: 0;
+    font-size: 15px;
+    padding: 10
+    }
+    
+  input[type="submit"] {
+    color: white;
+    border-radius: 20px;
+    background: rgb(100, 98, 96);
+    margin:0 10 0 10;
+    }
+    
+     @media (max-width: 500px) {
+      li {
+        display: block;
+        font-size: 16;
+        text-transform: uppercase;
+        
+      }
